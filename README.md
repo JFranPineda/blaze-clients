@@ -30,17 +30,22 @@
 <!-- INSTALLATION -->
 ## Instalation:
 * (1) Clone the repo at your pc/laptop (https://www.youtube.com/watch?v=CKcqniGu3tA)
-** git clone https://github.com/JFranPineda/blaze-clients.git
+* git clone https://github.com/JFranPineda/blaze-clients.git
 * (2) Open up a terminal using Git Bash
-* (2) Run the following command:
-** npm install
+* (2) Run the following command: npm install
 * (2.1) npm install -D (if the step 2 doesn't work at all)
 * (3) Open a new Git Bash console and run the following command to start the Server and connect to MongoDB in the Cloud:
 ** npm start
-* Open your GoogleChrome Browser and go to the site:
-** localhost:3000
-* (4) Open a new Git Bash console and run the following command to start the react application and its views:
-** npm run dev
-* Open your GoogleChrome Browser and go to the site:
-** localhost:1234
+* Open your GoogleChrome Browser and go to the site: localhost:3000
+* (4) Open a new Git Bash console and run the following command to start the react application and its views: npm run dev
+* Open your GoogleChrome Browser and go to the site: localhost:1234
+
+<!-- TIPS -->
+## Navigation:
+* About navigation, if you clicked on the Logo placed on the left corner, you could return to the main menu of the web.
+
+## Author:
+* Jesus Pineda Salas
+* Bs. System Engineer
+* © 2021
       
