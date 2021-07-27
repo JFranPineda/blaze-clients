@@ -2,15 +2,13 @@
   "name": "blaze-test",
   "version": "1.0.0",
   "main": "index.js",
-  "homepage": "https://main.d21jbunqz417af.amplifyapp.com/",
   "dependencies": {
     "@reach/router": "^1.3.4",
     "ag-grid-enterprise": "^24.1.0",
     "axios": "^0.21.1",
     "npm": "^7.20.1",
     "react": "^17.0.2",
-    "react-dom": "^16.14.0",
-    "react-scripts": "^4.0.3"
+    "react-dom": "^16.14.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
@@ -34,8 +32,7 @@
     "start": "nodemon src/atlasConnection.js",
     "dev": "parcel src/index.html",
     "format": "prettier \"src/**/*.{js,html}\" --write",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel src/index.html"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
