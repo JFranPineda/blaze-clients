@@ -22,8 +22,6 @@ const GridFullClient = ({ data }) => {
         setGridColumnApi(params.columnApi);
     };
 
-
-
     return (
         <div className="ag-theme-alpine" style={{ height: 400, width: 600 }}>
             <AgGridReact

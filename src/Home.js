@@ -1,26 +1,27 @@
 import React, { useState } from 'react';
-import { Router, Link, navigate } from '@reach/router';
+import { Link } from '@reach/router';
 import Modal from './Modal';
 import ClientForm from './ClientForm';
-
 
 const Home = () => {
     const [showModal, setShowModal] = useState(false);
     const toggleModal = () => setShowModal(!showModal);
     return (
         <div className="container">
+            <Link to="/commits">
+                <button>
+                    Commits of the Repo
+                </button>
+            </Link>
             <Link to="/grid-client">
                 <button>
-
                     Assignment
                 </button>
-
             </Link>
             <Link to="/grid-full-client">
                 <button>
                     Extra Bonus 01
                 </button>
-
             </Link>
             <Link to="/" onClick={toggleModal}>
                 <button>
