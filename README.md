@@ -11,12 +11,16 @@
 ### Home: '/'
 * 3 different buttons
 * 3 different views to visit
+### Watch Commits: '/commits'
+* 01 Table with 4 attributes
+* 20+ commits to show in the table
+* Updating everytime when you did a commit to the original repository
 ### Grid Client: '/grid-client'
 * 01 Table with 4 attributes
 * 1 000 rows with data!
 ### Full Grid  Client: '/grid-full-client'
-* 01 Table with sortable and filter features.
-* 10 000 rows with data!!
+* 01 Table with sortable and filter features
+* 10 000 rows with data!!!
 ### Modal to Register a new client
 * 01 Form with 4 fields to register a new client.
 * It saves on the cloud, thanks to Atlas - MongoDB (Mlab) and AWS
@@ -28,7 +32,7 @@
 * Install Gitbash (https://www.youtube.com/watch?v=qdwWe9COT9k)
 
 <!-- INSTALLATION -->
-## Instalation:
+## Installation:
 * (1) Clone the repo at your pc/laptop (https://www.youtube.com/watch?v=CKcqniGu3tA)
 * git clone https://github.com/JFranPineda/blaze-clients.git
 * (2) Open up a terminal using Git Bash
