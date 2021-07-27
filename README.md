@@ -21,11 +21,11 @@
 -----------------------------------------------------------------------------
 
 # Steps to run the repo:
-# - (1) Clone the repo at your pc/laptop
+#- (1) Clone the repo at your pc/laptop
 # - (2) npm install
-# - (2.1) npm install -D (if the step 2 doesn't work at all)
+#- (2.1) npm install -D (if the step 2 doesn't work at all)
 # - (3) npm start (to start the Server and connect to MongoDB in the Cloud)
-#      - Site: Localhost:3000
+#- Site: Localhost:3000
 # - (4) npm run dev (to start the react application and its views)
-#      - Site: Localhost:1234
+#- Site: Localhost:1234
       
