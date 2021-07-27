@@ -26,7 +26,7 @@ class CommitsTable extends Component {
         return (
             <div>
                 {this.state.status === 0 ? (
-                    <h1 className="grid-header">No Commits Found</h1>
+                    <h1 className="grid-header">Loading...</h1>
                 ) : (
                     <div className="grid-box">
                         <GridCommits data={this.state.data} />

@@ -10,7 +10,7 @@ const Home = () => {
         <div className="container">
             <Link to="/commits">
                 <button>
-                    Commits of the Repo
+                    Watch Commits
                 </button>
             </Link>
             <Link to="/grid-client">

@@ -17,7 +17,6 @@ const App = () => {
                         Welcome Blaze Engineer!
                     </Link>
                 </header>
-
                 <Router>
                     <Home path="/" />
                     <GridClass path="/grid-client" />

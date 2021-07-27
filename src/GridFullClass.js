@@ -27,13 +27,13 @@ class GridFullClass extends Component {
         return (
             <div>
                 {this.state.clients === 0 ? (
-                    <h1 className="grid-header">No Clients Found</h1>
+                    <h1 className="grid-header">Loading...</h1>
                 ) : (
-                        <div className="grid-box">
-                            <GridFullClient data={this.state.data} />
+                    <div className="grid-box">
+                        <GridFullClient data={this.state.data} />
 
-                        </div>
-                    )}
+                    </div>
+                )}
             </div>
         );
     }
