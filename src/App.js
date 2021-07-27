@@ -14,7 +14,6 @@ const App = () => {
             <div>
                 <header>
                     <Link to="/">
-                        Welcome Blaze Engineer!
                     </Link>
                 </header>
                 <Router>

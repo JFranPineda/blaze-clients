@@ -38,7 +38,7 @@ const GridCommits = ({ data }) => {
                 onGridReady={onGridReady}
                 rowData={commits}
                 pagination={true}
-                paginationPageSize="50">
+                paginationPageSize="10">
                 <AgGridColumn field="name" sortable={true} filter={true}></AgGridColumn>
                 <AgGridColumn field="email" sortable={true} filter={true}></AgGridColumn>
                 <AgGridColumn field="message" sortable={true} filter={true}></AgGridColumn>
